@@ -4,7 +4,7 @@ This is my near perfect Setup for Mojave 10.14.4
 
 Disclaimer:
 The system is running very stable and achieves better benchmark scores than Windows 10. This repo isn't meant as a guide by any means. I probably screwed up something in the process of craeating this Hackintosh or there are better alternatives to tackle the problems I faced.
-Nevertheless I'm proud how this build turned out and if you happen to have the same machine you can certainly use the provided material as a starting point ^^ 
+Nevertheless I'm proud how this build turned out and if you happen to have the same machine you can certainly use the provided material as a starting point ^^ (Of course you should always download the latest Clover version and kexts from the corresponding repos, especially when you want to install a newer OSX version than 10.14.4 this step is mandatory)
 
 Specs:
  -  CPU: i7-7500U
