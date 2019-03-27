@@ -1,5 +1,6 @@
 This is my near perfect Setup for Mojave 10.14.4
 
+![Screenshot](screenshot/Screenshot.png)
 
 Disclaimer:
 The system is running very stable and achieves better benchmark scores than Windows 10. This repo isn't meant as a guide by any means. I probably screwed up something in the process of craeating this Hackintosh or there are better alternatives to tackle the problems I faced.
