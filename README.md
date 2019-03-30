@@ -25,7 +25,7 @@ Specs:
  What doesn't work:
  -  card reader
  -  built-in Wifi
-
+ -  fingerprint reader
 
 Disclaimer for Wifi: 
 Getting built-in Wifi working is possible by replacing the card with a BCM94352z. While this is working and I tried myself I face the problem that even though it's working in MacOS, Windows is unable to find Wifi networks. I mainly use Windows 10 as my main OS for university, so for the rare occasions I want/ need to run OSX a TP-Link Wifi dongle does the trick.
