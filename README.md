@@ -1,4 +1,4 @@
-This is my near perfect Setup for Mojave 10.14.4
+## This is my near perfect Setup for Mojave 10.14.4
 
 ![Screenshot](screenshot/Screenshot.png)
 
@@ -43,6 +43,8 @@ than 10.14.4 this step is mandatory)
 | WhateverGreen  | https://github.com/acidanthera/WhateverGreen/releases  |
 
 # Usefull tools
+Kext updater: https://www.hackintosh-forum.de/forum/thread/32621-kext-updater/
+Hackintool: https://www.tonymacx86.com/threads/release-hackintool-v2-0-4.254559/
 
 # Disclaimer for Wifi
 Getting built-in Wifi working is possible by replacing the card with a BCM94352z. While this is working and I tried myself I face the problem that even though it's working in MacOS, Windows is unable to find Wifi networks. I mainly use Windows 10 as my main OS for university, so for the rare occasions I want/ need to run OSX a TP-Link Wifi dongle does the trick.
