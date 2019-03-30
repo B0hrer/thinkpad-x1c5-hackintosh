@@ -470,9 +470,11 @@
 				<integer>1</integer>
 				<key>#3 no external</key>
 				<string>0x591b0000, eliminate all external ports (0204 and 0306)</string>
-				<key>#framebuffer-con1-flags</key>
+				<key>#framebuffer-con0-enable</key>
+				<integer>1</integer>
+				<key>#framebuffer-con0-type</key>
 				<data>
-				hwEAAA==
+				AAQAAA==
 				</data>
 				<key>#framebuffer-con2-enable</key>
 				<integer>1</integer>
@@ -502,8 +504,6 @@
 				<data>
 				AAgAAA==
 				</data>
-				<key>#hda-gfx</key>
-				<string>onboard-1</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AAAeWQ==
@@ -512,25 +512,19 @@
 				<data>
 				FlkAAA==
 				</data>
-				<key>framebuffer-con0-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-con0-type</key>
-				<data>
-				AAQAAA==
-				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>framebuffer-con1-flags</key>
+				<data>
+				hwEAAA==
 				</data>
 				<key>framebuffer-con1-pipe</key>
 				<data>
 				EgAAAA==
 				</data>
 				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-con2-type</key>
 				<data>
 				AAgAAA==
 				</data>
@@ -550,6 +544,8 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 			</dict>
 			<key>PciRoot(0)/Pci(0x1f,3)</key>
 			<dict>
@@ -750,20 +746,62 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB 10.13.4+ by PMHeart</string>
+				<string>USB Port Limit Patch 1 ©PMHeart</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g/sPD4MDBQAA
+				g/sPD4cLBAAA
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>
+				g/s/D4cLBAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 2 ©PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QYP/Dw+DlAQAAA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
 				<data>
-				g/sPkJCQkJCQ
+				QYP/Pw+DlAQAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 3 ©PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g+MP0+NBCd8=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.4</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>
+				g+M/0+NBCd8=
 				</data>
 			</dict>
 		</array>
@@ -788,7 +826,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02751303GUHWVP1M</string>
+		<string>C02714401GUHWVP1H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -818,9 +856,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02VVCYZHV29</string>
+		<string>C02TJ9ZGHV29</string>
 		<key>SmUUID</key>
-		<string>F3D7D214-6C22-42F3-A011-63EF470D00E3</string>
+		<string>D633EBF9-0D95-4706-8D44-02705FD84B6A</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
