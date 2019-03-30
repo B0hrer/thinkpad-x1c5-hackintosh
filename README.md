@@ -4,7 +4,8 @@ This is my near perfect Setup for Mojave 10.14.4
 
 Disclaimer:
 The system is running very stable and achieves better benchmark scores than Windows 10. This repo isn't meant as a guide by any means. I probably screwed up something in the process of craeating this Hackintosh or there are better alternatives to tackle the problems I faced.
-Nevertheless I'm proud how this build turned out and if you happen to have the same machine you can certainly use the provided material as a starting point ^^ (Of course you should always download the latest Clover version and kexts from the corresponding repos, especially when you want to install a newer OSX version than 10.14.4 this step is mandatory)
+Nevertheless I'm proud how this build turned out and if you happen to have the same machine you can certainly use the provided material as a starting point, as it's a full bootable copy of all necessary files from my EFI partition :) To use this simply clone the repo and place the content in /EFI/Clover on your EFI partition (Of course you should always download the latest Clover version and kexts from the corresponding repos, especially when you want to install a newer OSX version 
+than 10.14.4 this step is mandatory)
 
 Specs:
  -  CPU: i7-7500U
@@ -27,5 +28,5 @@ Specs:
 
 
 Disclaimer for Wifi: 
-Getting built-in Wifi working is possible by replacing the card with a BCM94352z. While this is working and I tried myself I face the problem that even though it's working in MacOS, Windows is unable to find Wifi networks. I mainly use Windows 10 as my main OS for university, so for the rare occasions I want/ need to run OSX a TP-Link Wifi dongle comes into play.
+Getting built-in Wifi working is possible by replacing the card with a BCM94352z. While this is working and I tried myself I face the problem that even though it's working in MacOS, Windows is unable to find Wifi networks. I mainly use Windows 10 as my main OS for university, so for the rare occasions I want/ need to run OSX a TP-Link Wifi dongle does the trick.
  
