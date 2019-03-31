@@ -16,7 +16,7 @@ than 10.14.4 this step is mandatory)
  
  # Status
  What is working:
- -  Audio (VoodooHDA.kext -> AppleALC doesn't recognize the CX11871 codec)
+ -  Audio
  -  CPU power management
  -  GPU accelleration (framebuffer patched accordingly)
  -  Brightness controls
@@ -24,6 +24,7 @@ than 10.14.4 this step is mandatory)
  -  HDMI (even though it's a bit unstable and I can't figure out why)
  
  What doesn't work:
+ - Bluetooth
  -  card reader
  -  built-in Wifi
  -  fingerprint reader
@@ -32,19 +33,21 @@ than 10.14.4 this step is mandatory)
 | Kext | URL |
 | ------------- | ------------- |
 | ACPIBatteryManager | https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads/  |
+| AppleALC | https://github.com/acidanthera/AppleALC |
 | CodecCommander | https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads/  |
+| CPUFriend| https://github.com/acidanthera/CPUFriend |
 | FakePCIID  | https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/  |
 | FakeSMC  | https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/  |
 | IntelMausiEthernet  | https://bitbucket.org/RehabMan/os-x-intel-network/downloads/  |
 | Lilu  | https://github.com/acidanthera/Lilu/releases  |
 | USBInjectAll  | https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/  |
-| VoodooHDA  | https://sourceforge.net/projects/voodoohda/files/  |
 | VoodooPS2Controller  | https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/  |
 | WhateverGreen  | https://github.com/acidanthera/WhateverGreen/releases  |
 
 # Usefull tools
 - Kext updater: https://www.hackintosh-forum.de/forum/thread/32621-kext-updater/
 - Hackintool: https://www.tonymacx86.com/threads/release-hackintool-v2-0-4.254559/
+- freqVectorsEdit (helpful for CPUFriend): https://github.com/Piker-Alpha/freqVectorsEdit.sh
 
 # Disclaimer for Wifi
 Getting built-in Wifi working is possible by replacing the card with a BCM94352z. While this is working and I tried myself I face the problem that even though it's working in MacOS, Windows is unable to find Wifi networks. I mainly use Windows 10 as my main OS for university, so for the rare occasions I want/ need to run OSX a TP-Link Wifi dongle does the trick.
