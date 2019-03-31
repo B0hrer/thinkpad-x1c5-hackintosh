@@ -17,7 +17,7 @@
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixHPET</key>
-				<false/>
+				<true/>
 				<key>FixIPIC</key>
 				<false/>
 				<key>FixRTC</key>
@@ -296,7 +296,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -cdfon lilucpu=9 -disablegfxfirmware</string>
+		<string>dart=0 nv_disable=1 -cdfon lilucpu=9 -disablegfxfirmware -v</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -425,8 +425,6 @@
 		<dict>
 			<key>AFGLowPowerState</key>
 			<false/>
-			<key>Inject</key>
-			<integer>3</integer>
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
@@ -437,6 +435,8 @@
 			<key>#Kaby Lake-Comment</key>
 			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
 		</dict>
+		<key>ForceHPET</key>
+		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0)/Pci(0x02,0)</key>
@@ -504,6 +504,8 @@
 				<data>
 				AAgAAA==
 				</data>
+				<key>#hda-gfx</key>
+				<string>onboard-1</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AAAeWQ==
@@ -544,17 +546,15 @@
 				<data>
 				AAAAgA==
 				</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 			</dict>
 			<key>PciRoot(0)/Pci(0x1f,3)</key>
 			<dict>
+				<key>#hda-gfx</key>
+				<string>onboard-1</string>
 				<key>#no-controller-patch</key>
 				<integer>1</integer>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
-				<integer>3</integer>
+				<integer>21</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -826,7 +826,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02714401GUHWVP1H</string>
+		<string>C02712303QXHWVPJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -856,9 +856,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02TJ9ZGHV29</string>
+		<string>C02TGKY1HV29</string>
 		<key>SmUUID</key>
-		<string>D633EBF9-0D95-4706-8D44-02705FD84B6A</string>
+		<string>A83A3750-1ABA-4D3E-962C-11DC2795B52A</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
