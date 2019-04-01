@@ -470,8 +470,6 @@
 				<integer>1</integer>
 				<key>#3 no external</key>
 				<string>0x591b0000, eliminate all external ports (0204 and 0306)</string>
-				<key>#framebuffer-con0-enable</key>
-				<integer>1</integer>
 				<key>#framebuffer-con0-type</key>
 				<data>
 				AAQAAA==
@@ -506,6 +504,10 @@
 				</data>
 				<key>#hda-gfx</key>
 				<string>onboard-1</string>
+				<key>AAPL,GfxYTile</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AAAeWQ==
@@ -513,6 +515,16 @@
 				<key>device-id</key>
 				<data>
 				FlkAAA==
+				</data>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con0-pipe</key>
+				<data>
+				EgAAAA==
 				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
@@ -820,13 +832,13 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.F000.B00.1809171524</string>
+		<string>MBP142.88Z.F000.B00.1809171524</string>
 		<key>Board-ID</key>
-		<string>Mac-B4831CEBD52A0C4C</string>
+		<string>Mac-CAD6701F7CEA0921</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02712303QXHWVPJC</string>
+		<string>C02742102CDHRPC1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -854,11 +866,11 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro14,1</string>
+		<string>MacBookPro14,2</string>
 		<key>SerialNumber</key>
-		<string>C02TGKY1HV29</string>
+		<string>C02VK7Y3HV2N</string>
 		<key>SmUUID</key>
-		<string>A83A3750-1ABA-4D3E-962C-11DC2795B52A</string>
+		<string>59E52EA1-8AD0-4698-9DC5-F6DE1FC42943</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
