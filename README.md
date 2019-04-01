@@ -1,6 +1,6 @@
 ## This is my near perfect Setup for Mojave 10.14.4
 
-![Screenshot](screenshot/Screenshot.png)
+![Screenshot](screenshot/Desktop.png)
 
 Disclaimer:
 The system is running very stable and achieves better benchmark scores than Windows 10. This repo isn't meant as a guide by any means. I probably screwed up something in the process of craeating this Hackintosh or there are better alternatives to tackle the problems I faced.
@@ -17,14 +17,14 @@ than 10.14.4 this step is mandatory)
  # Status
  What is working:
  -  Audio
- -  CPU power management
+ -  CPU power management (CPUFriend.kext with help of the freqVectorsEdit script)
  -  GPU accelleration (framebuffer patched accordingly)
  -  Brightness controls
  -  USB ports
  -  HDMI (even though it's a bit unstable and I can't figure out why)
  
  What doesn't work:
- - Bluetooth
+ - Bluetooth (partially working, but only when rebooting from another OS)
  -  card reader
  -  built-in Wifi
  -  fingerprint reader
