@@ -3,7 +3,7 @@
 ![Screenshot](screenshot/Desktop.png)
 
 Disclaimer:
-The system is running very stable and achieves better benchmark scores than Windows 10. This repo isn't meant as a guide by any means. I probably screwed up something in the process of craeating this Hackintosh or there are better alternatives to tackle the problems I faced.
+The system is running very stable and achieves better benchmark scores than Windows 10. This repo isn't meant as a guide by any means. I probably screwed up something in the process of creating this Hackintosh or there are better alternatives to tackle the problems I faced.
 Nevertheless I'm proud how this build turned out and if you happen to have the same machine you can certainly use the provided material as a starting point, as it's a full bootable copy of all necessary files from my EFI partition :) To use this simply clone the repo and place the content in /EFI/Clover on your EFI partition (Of course you should always download the latest Clover version and kexts from the corresponding repos, especially when you want to install a newer OSX version 
 than 10.14.4 this step is mandatory)
 
