@@ -296,13 +296,15 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -cdfon lilucpu=9 -disablegfxfirmware -v</string>
+		<string>dart=0 nv_disable=1 -cdfon lilucpu=9 -v</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>SignatureFixup</key>
+		<true/>
 		<key>Timeout</key>
 		<integer>5</integer>
 	</dict>
@@ -474,20 +476,6 @@
 				<data>
 				AAQAAA==
 				</data>
-				<key>#framebuffer-con2-enable</key>
-				<integer>1</integer>
-				<key>#framebuffer-con2-flags</key>
-				<data>
-				hwEAAA==
-				</data>
-				<key>#framebuffer-con2-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>#framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
 				<key>#framebuffer-con3-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con3-flags</key>
@@ -510,7 +498,7 @@
 				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AAAeWQ==
+				AAAWWQ==
 				</data>
 				<key>device-id</key>
 				<data>
@@ -539,6 +527,20 @@
 				EgAAAA==
 				</data>
 				<key>framebuffer-con1-type</key>
+				<data>
+				AAQAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con2-flags</key>
+				<data>
+				hwEAAA==
+				</data>
+				<key>framebuffer-con2-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con2-type</key>
 				<data>
 				AAgAAA==
 				</data>
@@ -648,7 +650,7 @@
 			<false/>
 		</dict>
 		<key>#ig-platform-id</key>
-		<string>0x591b0000</string>
+		<string>0x59160000</string>
 		<key>EDID</key>
 		<dict>
 			<key>Custom</key>
@@ -659,7 +661,7 @@
 			SEFOMDMuMSAKAOk=
 			</data>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -828,17 +830,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP142.88Z.F000.B00.1809171524</string>
+		<string>MBP142.88Z.F000.B00.1812191256</string>
 		<key>Board-ID</key>
 		<string>Mac-CAD6701F7CEA0921</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02742102CDHRPC1F</string>
+		<string>C02731403J9HRPCA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -850,7 +852,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>184.0.0.0.0</string>
+		<string>186.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -867,10 +869,6 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro14,2</string>
-		<key>SerialNumber</key>
-		<string>C02VK7Y3HV2N</string>
-		<key>SmUUID</key>
-		<string>59E52EA1-8AD0-4698-9DC5-F6DE1FC42943</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
