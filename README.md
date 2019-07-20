@@ -12,7 +12,7 @@ than 10.14.4 this step is mandatory)
  -  GPU: Intel HD Graphics 620
  -  RAM: 16 GB
  -  Wifi: Intel Dual Band Wireless-AC 8260 (not supported in MacOSX)
- -  2 Thunderbolt 3 ports (untetsted)
+ -  2 Thunderbolt 3 ports
  
  # Status
  What is working:
@@ -22,6 +22,7 @@ than 10.14.4 this step is mandatory)
  -  Brightness controls
  -  USB ports
  -  HDMI (even though it's a bit unstable and I can't figure out why)
+ - Thunderbolt 3 (only after cold boot, no hotplug support)
  
  What doesn't work:
  - Bluetooth (partially working, but only when rebooting from another OS)
@@ -43,6 +44,14 @@ than 10.14.4 this step is mandatory)
 | USBInjectAll  | https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/  |
 | VoodooPS2Controller  | https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/  |
 | WhateverGreen  | https://github.com/acidanthera/WhateverGreen/releases  |
+
+# BIOS settings
+- Config → Network → Wake On LAN: Disabled
+- Security → Memory Protection → Execution prevention: Enabled
+- Security → Secure Boot: Disabled
+- Security → Device Guard: Disabled
+- Startup → UEFI/ Legacy Boot: UEFI only
+- Startup → CSM support: Yes
 
 # Usefull tools
 - Kext updater: https://www.hackintosh-forum.de/forum/thread/32621-kext-updater/
