@@ -60,4 +60,7 @@ than 10.14.4 this step is mandatory)
 
 # Disclaimer for Wifi
 Getting built-in Wifi working is possible by replacing the card with a BCM94352z. While this is working and I tried myself I face the problem that even though it's working in MacOS, Windows is unable to find Wifi networks. I mainly use Windows 10 as my main OS for university, so for the rare occasions I want/ need to run OSX a TP-Link Wifi dongle does the trick.
- 
+
+# Download full EFI
+This contains a download link for the full EFI partition. Keep in mind that I probably won't update or maintain it as I do with this repo ;)
+[Download](https://drive.google.com/file/d/11QGEgU5-vKbffL_jmGQNxUffojCB9Qvh/view?usp=sharing) (Google Drive)
