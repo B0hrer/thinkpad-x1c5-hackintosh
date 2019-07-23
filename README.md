@@ -1,4 +1,4 @@
-## This is my near perfect Setup for Mojave 10.14.5
+## This is my near perfect Setup for Mojave 10.14.6
 
 ![Screenshot](screenshot/Desktop.png)
 
