@@ -4,9 +4,7 @@
 
 Disclaimer:
 The system is running very stable and achieves better benchmark scores than Windows 10. This repo isn't meant as a guide by any means. I probably screwed up something in the process of creating this Hackintosh or there are better alternatives to tackle the problems I faced.
-Nevertheless I'm proud how this build turned out and if you happen to have the same machine you can certainly use the provided material as a starting point, as it's a full bootable copy of all necessary files from my EFI partition :) To use this simply clone the repo and place the content in /EFI/Clover on your EFI partition, after you installed Clover (Of course you should always download the latest Clover version and kexts from the corresponding repos, especially when you want to install a newer OSX version 
-than 10.14.4 this step is mandatory)
-
+Nevertheless I'm proud how this build turned out and if you happen to have the same machine you can certainly use the provided material as a starting point, as it's a full bootable copy of all necessary files from my EFI partition :) To use this simply clone the repo and place EFI folder on your EFI partition. The setup works on 10.14.6 as stated in the title.
 # Specs
  -  CPU: i7-7500U
  -  GPU: Intel HD Graphics 620
@@ -61,6 +59,3 @@ than 10.14.4 this step is mandatory)
 # Disclaimer for Wifi
 Getting built-in Wifi working is possible by replacing the card with a BCM94352z. While this is working and I tried myself I face the problem that even though it's working in MacOS, Windows is unable to find Wifi networks. I mainly use Windows 10 as my main OS for university, so for the rare occasions I want/ need to run OSX a TP-Link Wifi dongle does the trick.
 
-# Download full EFI
-This contains a download link for the full EFI partition. Keep in mind that I probably won't update or maintain it as I do with this repo ;)
-[Download](https://drive.google.com/file/d/11QGEgU5-vKbffL_jmGQNxUffojCB9Qvh/view?usp=sharing) (Google Drive)
