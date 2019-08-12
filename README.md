@@ -55,7 +55,7 @@ Nevertheless I'm proud how this build turned out and if you happen to have the s
 - Kext updater: https://www.hackintosh-forum.de/forum/thread/32621-kext-updater/
 - Hackintool: https://www.tonymacx86.com/threads/release-hackintool-v2-0-4.254559/
 - freqVectorsEdit (helpful for CPUFriend): https://github.com/Piker-Alpha/freqVectorsEdit.sh
+- Wallpaper: https://www.reddit.com/r/thinkpad/comments/6uyaj2/x1_carbon_5th_gen_exploded_wallpapers_in_4k_inc/
 
 # Disclaimer for Wifi
 Getting built-in Wifi working is possible by replacing the card with a BCM94352z. While this is working and I tried myself I face the problem that even though it's working in MacOS, Windows is unable to find Wifi networks. I mainly use Windows 10 as my main OS for university, so for the rare occasions I want/ need to run OSX a TP-Link Wifi dongle does the trick.
-
