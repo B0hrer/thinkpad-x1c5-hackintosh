@@ -90,6 +90,7 @@ TrackPad: PS/2
 
 > ## OTHER x1c6-hackintosh REPOSITORIES:
 `Even though the 6th gen is on year newer, the hardware is basically the same apart from the CPU`
+
 [tylernguyen/x1c6-hackintosh](https://github.com/tylernguyen/x1c6-hackintosh)
 [zhtengw/EFI-for-X1C6-hackintosh](https://github.com/zhtengw/EFI-for-X1C6-hackintosh)  
 [Colton-Ko/macOS-ThinkPad-X1C6](https://github.com/Colton-Ko/macOS-ThinkPad-X1C6)  
