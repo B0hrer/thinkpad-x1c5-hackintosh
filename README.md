@@ -15,16 +15,15 @@
 
 > ## Update
 
+changes 19.06.2020  
 
 #### Added
 
-- new OpenCanopy Resources
+- patches by @tylernguyen
 
 #### Changed
 
-- updated to OpenCore to 0.5.9
-- updated Config as per OC changes
-- Upgraded various kexts.
+- newly compieled ACPI patches, credits to @tylernguyen
 
 > ## SUMMARY:
 

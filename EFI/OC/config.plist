@@ -32,11 +32,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EXT3-LedReset-TP.aml</string>
+				<string>SSDT-LED.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EXT3-LedReset-TP.aml</string>
+				<string>SSDT-LED.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1767,7 +1767,7 @@
 			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>BootProtect</key>
-			<string>Bootstrap</string>
+			<string>None</string>
 			<key>ExposeSensitiveData</key>
 			<integer>3</integer>
 			<key>HaltLevel</key>
