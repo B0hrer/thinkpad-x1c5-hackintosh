@@ -15,17 +15,17 @@
 
 > ## Update
 
-changes 16.07.2020  
+changes 19.08.2020  
 
 #### Added
 
-- itlwm.kext to use the integrated Intel AC 8625
+- OC to 0.6.0
 
 #### Changed
 
-- various optimizations and upgraded kexts
-- custom EDID injection, that finally fixes HDMI hotplug, refer to: https://github.com/tylernguyen/x1c6-hackintosh/issues/60
-- cleaned the framebuffer patch
+- upgraded several kexts
+- latest OC
+- this repo is now based around a modded BIOS wit 'Intel Advanced Menu' unlocked
 
 > ## SUMMARY:
 
