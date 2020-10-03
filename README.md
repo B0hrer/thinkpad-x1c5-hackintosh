@@ -15,17 +15,16 @@
 
 > ## Update
 
-changes 19.08.2020  
+changes 03.10.2020  
 
 #### Added
 
-- OC to 0.6.0
+- OC to 0.6.1
 
 #### Changed
 
 - upgraded several kexts
 - latest OC
-- this repo is now based around a modded BIOS wit 'Intel Advanced Menu' unlocked
 
 > ## SUMMARY:
 
